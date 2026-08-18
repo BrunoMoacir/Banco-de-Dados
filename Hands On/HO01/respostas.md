@@ -47,4 +47,7 @@
     . Fisico: Baixo nivel, focado em como o dado é gravado no hardware
 
 12. **O que é um Esquema de BD?**
-    É a estrutura
+    É a estrutura (metadados) do banco de dados(ex: quais sao as tabelas e as colunas). Ele é estatico e raramente muda
+
+13. **O que é uma instancia de BD?**
+    É o conteudo real do banco de dados em um momento especifico. A instancia muda constantemente a cada nova insercao, atualizacao ou exclusao
