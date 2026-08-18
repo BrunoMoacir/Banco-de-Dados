@@ -56,6 +56,14 @@
     A principal vantagem é garantir a **independencia de dados**, alem de permitir multiplas visoes do mesmo banco para diferentes tipos de usuarios sem expor tudo a todos.
 
 15. **Quais niveis existem em uma Arquitetura de Tres esquemas?**
-    . Nivel extremo(visao): Descreve apenas a parte do banco que interessa a um grupo de usuarios
-    . Nivel conceitual: descreve a estrutura logica de todo o banco de dados
-    . Nivel interno: descreve o armazenamento fisico e os caminhos de acesso no hardware
+    . Nivel extremo(visao): Descreve apenas a parte do banco que interessa a um grupo de usuarios, ocultando o restante
+    . Nivel conceitual: descreve a estrutura logica de todo o banco de dados(entidades, relacionamentos, restricoes)
+    . Nivel interno: descreve o armazenamento fisico e os caminhos de acesso no/aos hardware/dados
+
+16. **O que é um mapeamento em uma arquitetura de tres esquemas?**
+    É o processo de traducao que o SGBD faz entre os niveis(ex:traduzir a requisicao da visao externa do usuario para encontrar  o dado fisico no nivel interno)
+
+17. **O que é Independencia de dados e qual sua importancia para um SBD?**
+    É a capacidade de alterar a estrutura de um nivel inferior sem quebrar o nivel superior. Sua importancia esta em permitir atualizacoes no banco(como adicionar campos ou mudar o disco fisico) sem precisar reescrever o codigo das aplicacoes que o utilizam
+
+18. **O que é uma li
