@@ -32,4 +32,11 @@
 7. **O que é um gerenciador de banco de dados (SGBD)?**
     É o software (como mysql, postgresql, oracle) que serve como interface para criar, manter e gerenciar o acesso aos dados do BD de forma pratica e segura.
 
-8. ** Quais sao
+8. **Quais sao as propriedades de um SGBD?**
+    Controle de redundancia, restricao de acesso(seguranca), garantia de integridade, controle de concorrencia(multiplos acessos simultaneos) e facilidade de backup/recuperacao
+
+9. **Indique situacoes em que o uso de SGBD pode se mostrar inadequado**
+    Quando a aplicacao é extremamente simples e nao sofrera mudancas, ou quando o sistema tem restricoes rigorosas de hardware(sistemas embarcados limitados) e exige tempo de resposta de tempo real onde o "peso" extra so SGBD atrapalharia
+
+10. **O que é um modelo de dados?**
+    
