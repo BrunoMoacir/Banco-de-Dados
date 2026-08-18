@@ -39,4 +39,12 @@
     Quando a aplicacao é extremamente simples e nao sofrera mudancas, ou quando o sistema tem restricoes rigorosas de hardware(sistemas embarcados limitados) e exige tempo de resposta de tempo real onde o "peso" extra so SGBD atrapalharia
 
 10. **O que é um modelo de dados?**
-    
+    Modelo de dados é um conjunto de ferramentas conceiturais( regras e simbolos) usadas para descrever a estrutura do banco, os tipos de dados, os relacionamentos e as restricoes
+
+11. **Em relacao ao nivel de abstracao, quais sao os tipos de modelos de dados?**
+    . Conceitual: alto nivel, focado em como o usuario enxerga o negocio
+    . Logico (ou representacional): Medio nivel, focado na estrutura que o SGBD vai usar (ex: tabelas relacionais)
+    . Fisico: Baixo nivel, focado em como o dado é gravado no hardware
+
+12. **O que é um Esquema de BD?**
+    É a estrutura
