@@ -51,3 +51,11 @@
 
 13. **O que é uma instancia de BD?**
     É o conteudo real do banco de dados em um momento especifico. A instancia muda constantemente a cada nova insercao, atualizacao ou exclusao
+
+14. **Quais as vantagens de se adotar uma Arquitetura de Tres esquemas para implementar um BD?**
+    A principal vantagem é garantir a **independencia de dados**, alem de permitir multiplas visoes do mesmo banco para diferentes tipos de usuarios sem expor tudo a todos.
+
+15. **Quais niveis existem em uma Arquitetura de Tres esquemas?**
+    . Nivel extremo(visao): Descreve apenas a parte do banco que interessa a um grupo de usuarios
+    . Nivel conceitual: descreve a estrutura logica de todo o banco de dados
+    . Nivel interno: descreve o armazenamento fisico e os caminhos de acesso no hardware
