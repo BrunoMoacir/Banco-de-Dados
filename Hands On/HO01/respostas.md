@@ -66,4 +66,12 @@
 17. **O que é Independencia de dados e qual sua importancia para um SBD?**
     É a capacidade de alterar a estrutura de um nivel inferior sem quebrar o nivel superior. Sua importancia esta em permitir atualizacoes no banco(como adicionar campos ou mudar o disco fisico) sem precisar reescrever o codigo das aplicacoes que o utilizam
 
-18. **O que é uma li
+18. **O que é uma linguagem de consulta?**
+    É uma linguagem padrao(como o SQL) que fornece os comandos necessários para que usuários e aplicações solicitem, insiram ou manipulem informações no banco.
+
+19. **Cite as linguagens incorporadas na linguagem SQL**
+    . DDL (Data Definiton Language): Para criar e alterar estruturas (ex: CREATE, DROP)
+    . DML (Data Manipulation Language): Para manipular dados(INSERT,UPDATE,DELETE)
+    . DQL (DAta Query Language): Para consultas (SELECT)
+    . DCL (Data Control Language): Para permissoes(ex: GRANT)
+    . TCL (Transiction Control Language): Para transacoes(COMMIT,ROLLBACK)
