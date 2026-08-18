@@ -23,3 +23,13 @@
     . É logicamente coerente e possui significado
     . É projetado e populado com um propósito e públicos específicos
 
+6. **Quais sao as etapas de um projeto de BD?**
+    . Levantamento e análise de requisitos
+    . Projeto conceitual
+    . Projeto lógico
+    . Projeto físico
+
+7. **O que é um gerenciador de banco de dados (SGBD)?**
+    É o software (como mysql, postgresql, oracle) que serve como interface para criar, manter e gerenciar o acesso aos dados do BD de forma pratica e segura.
+
+8. ** Quais sao
